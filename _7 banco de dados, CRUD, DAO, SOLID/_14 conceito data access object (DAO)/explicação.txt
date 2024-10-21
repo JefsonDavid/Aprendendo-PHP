@@ -1,0 +1,54 @@
+O que é o Data Acess Object (DAO)?
+
+Ele veio para melhorar o que a gente nas aulas anteriores que foi o CRUD
+
+Como explicado em aulas anteriores a gente usa classes para criar objetos e esses objetos vamos usar nos sistemas de verdade
+
+Nas aulas anteriores a gente fez um CRUD de usuários e o que a gente poderia fazer é uma classe especifica para cuidar de todos os aspectos relacionados a usuários
+
+    CLASSE USUARIO
+    //Propriedades
+        - id
+        - nome
+        - email
+
+    //Metodos
+        - getid
+        - setid
+
+        - getnome
+        - setnome
+
+        - getemail
+        - setemail
+
+Isso serviria para sempre que fossemos mexer com os dados especificamente de usuários a gente sempre utilizaria atravéz dessa classe
+
+Dessa forma a gente consegue manipular o que quisermos do usuário por essa classe
+
+Só o ato de fazer isso não é nescessáriamente a definição de DAO ela expande um pouco mais
+
+Para implementar o DAO vamos precisar de pelo menos duas classes 
+
+Na prática teriamos uma própria classes de usuário funcionando e outra classes de USUARIO DAO que é onde vai ficar o CRUD
+
+        CLASSE USUARIODAO
+        
+        - add(Usuario)
+        
+
+
+        PASSO 1 PARA ADD USUARIO NOVO:
+        - Criar a classe de novo usuário.
+
+        $usuario = new Usuario();
+        $usuario->setNome('Fulano');
+        $usuario->setEmail('fulano@gmail.com');
+
+        $usuarioDAO->add($usuario);
+
+
+
+        - Crio o objeto do usuario a ser adicionado
+        - Mando o objeto para o intermediário 
+        - O intermediário faz a comunicação com o banco de dados

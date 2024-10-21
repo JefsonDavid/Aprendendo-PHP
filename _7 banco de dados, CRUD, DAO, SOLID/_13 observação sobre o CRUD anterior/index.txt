@@ -1,0 +1,2 @@
+
+Nesse vídeo ele apenas reforçou que da maneira que fizemos o crud aqui não foi oorientado ao objeto, porém nas próximas aulas vamos fazer o crud usando a orientação ao objeto assim como são feitos os sistemas proficionais
