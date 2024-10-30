@@ -1,0 +1,8 @@
+VAMOS COMEÇAR A TRABALHAR COM DAO
+
+    -> Primeiro vamos criar uma pasta chamada MODELS vc pode chamar de (modelos, classes, etc)
+        -> Aqui dentro vamos criar um arquivo chamado de Usuario.php (OBS: o U é maiúsculo)
+            -> Dentro desse aquivo vamos criar uma class Usuario que vai servir para manipular o nosso banco de dados (OBS: Ela precisa ter a msm estrutura da nossa tabela do banco de dados)
+
+    -> Vamos criar outra pasta chamada dao
+        -> Dentro dessa pasta vamos criar o arquivo UsuarioDaoMysql.php 
